@@ -1,4 +1,5 @@
 #include <iostream> 
+#include <string>
 #include "Archive.hpp"
 
 
@@ -32,7 +33,7 @@ int main()
         }
         else if (q == "SEACH")
         {
-            archive.searchNote();
+            archive.searchNote(1);
         }
         else if (q == "EXIT")
         {

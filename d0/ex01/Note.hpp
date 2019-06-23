@@ -2,13 +2,15 @@
 #define NOTE_H
 
 #include <iostream>
+#include <string>
 
 class Note {
 
 public:
 	Note( void );
 	~Note( void );
-	void dispalayContent( void );
+	void displayContent( void );
+private:
 	std::string firstname;
 	std::string lastname;
 	std::string nickname;

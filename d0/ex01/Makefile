@@ -12,7 +12,7 @@
 
 NAME     := go
 
-SRCS     := main.cpp
+SRCS     := main.cpp Note.cpp Archive.cpp
 OBJS     := $(SRCS:.cpp=.o)
 
 CXX      := clang++
