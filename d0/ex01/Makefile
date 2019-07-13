@@ -10,9 +10,9 @@
 #                                                                              #
 #******************************************************************************#
 
-NAME     := go
+NAME     := antiutopian_phone_book_term_4543524
 
-SRCS     := main.cpp Note.cpp Archive.cpp
+SRCS     := main.cpp ArContactRecord.cpp ArchivePBook.cpp
 OBJS     := $(SRCS:.cpp=.o)
 
 CXX      := clang++

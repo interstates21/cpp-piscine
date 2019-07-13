@@ -1,4 +1,5 @@
 #include "Zombie.hpp"
+#include "ZombieEvent.hpp"
 #include <iostream> 
 #include <string>
 
@@ -15,8 +16,8 @@ Zombie::~Zombie() {
 }
 
 void Zombie::announce( void ) {
-    std::cout << "<" << this->_name << " ( " << this->_type
-    << " )>" << " Braaaaaaaaaaiiiiinss..." << std::endl;
+    std::cout << "<" << this->_name << " (" << this->_type
+    << ")>" << " Braaaaaaaaaaiiiiinss..." << std::endl;
 }
 
 void Zombie::setName( std::string n ) {

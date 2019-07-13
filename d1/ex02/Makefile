@@ -10,7 +10,7 @@
 #                                                                              #
 #******************************************************************************#
 
-NAME     := go
+NAME     := zomb
 
 SRCS     := main.cpp Zombie.cpp ZombieEvent.cpp
 OBJS     := $(SRCS:.cpp=.o)

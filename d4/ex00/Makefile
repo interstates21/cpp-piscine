@@ -10,9 +10,9 @@
 #                                                                              #
 #******************************************************************************#
 
-NAME     := frag
+NAME     := sorcerer
 
-SRCS     := main.cpp FragTrap.cpp
+SRCS     := main.cpp Peon.cpp Sorcerer.cpp Victim.cpp
 OBJS     := $(SRCS:.cpp=.o)
 
 CXX      := clang++

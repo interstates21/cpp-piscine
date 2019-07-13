@@ -9,13 +9,13 @@ int main(void)
     Zombie      *z2;
     ZombieEvent factory;
 
-    factory.setZombieType("Flying Y");
+    factory.setZombieType("Doctor");
     z1 = factory.randomChump();
     z1->announce();
-    delete z1;
-    factory.setZombieType("Doctor");
-    z2 = factory.newZombie("The Leader");
+    factory.destroyZombie(z1);
+    factory.setZombieType("The Leader");
+    z2 = factory.newZombie("J");
     z2->announce();
-    delete z2;
+    factory.destroyZombie(z2);
     return (0);
 }

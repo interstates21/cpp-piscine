@@ -28,11 +28,9 @@ $(NAME): $(OBJS)
 
 clean:
 	@rm -f $(OBJS)
-	@echo "[INFO] Objects removed!"
 
 fclean: clean
 	@rm -f $(NAME)
-	@echo "[INFO] $(NAME) removed!"
 
 re:     fclean all
 

@@ -27,6 +27,12 @@ void ZombieEvent::setZombieType( std::string t ) {
     return ;
 }
 
+void    ZombieEvent::destroyZombie ( Zombie *z) {
+    delete z;
+
+    return ;
+}
+
 Zombie *ZombieEvent::newZombie ( std::string n ) {
 
     Zombie  *z;
